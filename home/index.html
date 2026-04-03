@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link rel="icon" href="/home/logo.png" type="image/png">
+<link rel="shortcut icon" href="/home/logo.png" type="image/png">
+<link rel="apple-touch-icon" href="/home/logo.png">
+<meta name="theme-color" content="#0f172a">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vina Shop</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:
+    linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
+    url('/home/logo.png') center/cover no-repeat fixed;
+  color:white;
+}
+
+/* CONTAINER */
+.container{
+  width:90%;
+  max-width:480px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+  border-radius:18px;
+  padding:35px 25px;
+  text-align:center;
+  border:1px solid rgba(255,255,255,0.1);
+}
+
+/* TITLE */
+h1{
+  font-size:22px;
+  font-weight:600;
+  margin-bottom:30px;
+  letter-spacing:1px;
+}
+
+/* BUTTON */
+.nav-btn{
+  width:100%;
+  padding:14px;
+  margin:10px 0;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,0.15);
+  background:rgba(255,255,255,0.08);
+  color:white;
+  font-size:14px;
+  font-weight:500;
+  cursor:pointer;
+  transition:0.25s;
+}
+
+.nav-btn:hover{
+  background:rgba(255,255,255,0.18);
+}
+
+/* FOOTER */
+.footer{
+  margin-top:25px;
+  font-size:12px;
+  opacity:0.6;
+}
+</style>
+  <!-- Script Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9912622413153708"
+crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Vina Shop</h1>
+<button class="nav-btn" onclick="location.href='/sosmed-2/'">🛒 Belanja</button>  <button class="nav-btn" onclick="location.href='tg://openmessage?user_id=8578113689'">💬 Customer Service</button>
+
+<div class="footer">
+©Shine Shop - 2023
+</div>
+<script>  /* 🚫 ANTI INSPECT */  
+document.addEventListener("contextmenu",e=>e.preventDefault());  
+document.addEventListener("keydown",function(e){  
+if(e.key==="F12") e.preventDefault();  
+if(e.ctrlKey&&e.shiftKey&&["I","C","J"].includes(e.key)) e.preventDefault();  
+if(e.ctrlKey&&e.key==="u") e.preventDefault();  
+});  
+  
+setInterval(()=>{  
+if(window.outerWidth-window.innerWidth>160||window.outerHeight-window.innerHeight>160){  
+document.body.innerHTML="<h1 style='color:gold;text-align:center;margin-top:40vh;'>🚫 Developer Tools Terdeteksi</h1>";  
+}  
+},1000);  
+  
+setInterval(()=>{console.clear();},1000);  
+setInterval(()=>{debugger;},3000);  </script>
+</body>
+</html>
