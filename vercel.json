@@ -2,8 +2,8 @@
   {
   "redirects": [
     {
-      "source": "/ewallet/",
-      "destination": "/tidaktersedia/",
+      "source": "/home/",
+      "destination": "/home/",
       "permanent": true 
     },
     {
