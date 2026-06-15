@@ -1,0 +1,26 @@
+
+  {
+  "redirects": [
+    {
+      "source": "/ewallet/",
+      "destination": "/tidaktersedia/",
+      "permanent": true 
+    },
+    {
+      "source": "/r/",
+      "destination": "/tidaktersedia/",
+      "permanent": true
+    },
+     {
+      "source": "/abwner/",
+      "destination": "/tidaktersedia/",
+      "permanent": true
+     },
+     {
+      "source": "/apprem/",
+      "destination": "/tidaktersedia/",
+      "permanent": true 
+    }
+  ]
+  
+  }
