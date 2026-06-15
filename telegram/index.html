@@ -3,7 +3,7 @@
 <head>  
 <meta charset="UTF-8">  
 <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-<title>Shine Shop - Telegram Market</title>  
+<title>Vina Shop - Telegram Market</title>  
   
 <style>/* ===============================  
    ROOT THEME  
@@ -301,7 +301,7 @@ button:hover{
     <div class="logo">  
       <img src="/home/logo.png" alt="Shine Shop Logo">  
     </div>  
-    <h1>Shine Shop</h1>  
+    <h1>Vina Shop</h1>  
   </div>  
   
   <button class="hamburger-btn" id="menuToggle">  
@@ -351,7 +351,7 @@ overlay.onclick=closeMenu;
 <!-- FORM -->  
 <div class="container">  
   
-<h2>Telegram Store - Shine Shop</h2>  
+<h2>Telegram Store - Vina Shop</h2>  
   
 <label>Cari Layanan:</label>  
 <input type="text" id="search" placeholder="Contoh: Instagram / 14444" onkeyup="searchLayanan()">  
@@ -404,38 +404,9 @@ setTimeout(() => {
 const layananData={  
  //Layanan Promo    
 	     
-      "GIFT BIASA (PROSES 24 JAM)": [    
-		{ id: "0001", name: "💝 (Rp 5.000) (PROSES 24 JAM)", pricePerFollower: 5000, max: 1, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-        { id: "0002", name: "🐻 (Rp 5.000) (PROSES 24 JAM)", pricePerFollower: 5000, max: 1, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-		{ id: "0003", name: "🌹 (Rp 7.000) (PROSES 24 JAM)", pricePerFollower: 7700, max: 1, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-        { id: "0004", name: "🎁 (Rp 7.000) (PROSES 24 JAM)", pricePerFollower: 7700, max: 1,desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-        { id: "0005", name: "🚀 (Rp 14.000) (PROSES 24 JAM)", pricePerFollower: 14500, max: 1, desc:  "Masukkan username/channel telegram untuk dikirim gift" },
-		  { id: "0020", name: "🍾 (Rp 14.000) (PROSES 24 JAM)", pricePerFollower: 14500, max: 1, desc:  "Masukkan username/channel telegram untuk dikirim gift" },
-        { id: "0006", name: "💐 (Rp 14.000) (PROSES 24 JAM)", pricePerFollower: 14500, max: 1, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-		{ id: "0007", name: "🎂 (Rp 14.000) (PROSES 24 JAM)", pricePerFollower: 14500, max: 1, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-        { id: "0008", name: "💎 (Rp 27.800) (PROSES 24 JAM)", pricePerFollower: 29000, max: 1, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-        { id: "0009", name: "💍 (Rp 27.800) (PROSES 24 JAM)", pricePerFollower: 29000, max: 1, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-		{ id: "0010", name: "🏆 (Rp 27.800) (PROSES 24 JAM)", pricePerFollower: 29000, max: 1, desc:  "Masukkan username/channel telegram untuk dikirim gift" },  
-		  ],  
-	"GIFT EDISI TERBATAS": [
-		{ id: "1029", name:"🐻 Valentine (Rp 15.000)", pricePerFollower: 15000, max: 1, desc: "Pastikan username/link TELEGRAM tidak salah!!", foto: `https://files.catbox.moe/5azw7z.jpg` }
-	], 
-	  
-	 " GIFT BIASA TANPA WATERMARK (PROSES 30 MENIT)": [    
-		{ id: "0091", name: "💝 (Rp 6.000) (PROSES 30 MENIT)", pricePerFollower: 6000, max: 0, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-        { id: "0180", name: "🐻 (Rp 6.000) (PROSES 30 MENIT)", pricePerFollower: 6000, max: 0, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-		{ id: "0173", name: "🌹 (Rp 8.000) (PROSES 30 MENIT)", pricePerFollower: 8000, max: 0, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-        { id: "0204", name: "🎁 (Rp 8.000) (PROSES 30 MENIT)", pricePerFollower: 8000, max: 0, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-        { id: "0055", name: "🚀 (Rp 15.000) (PROSES 30 MENIT)", pricePerFollower: 15000, max: 0, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-        { id: "0026", name: "💐 (Rp 15.000) (PROSES 30 MENIT)", pricePerFollower: 15000, max: 0, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-		{ id: "0097", name: "🎂 (Rp 15.000) (PROSES 30 MENIT)", pricePerFollower: 15000, max: 0, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-        { id: "0088", name: "💎 (Rp 28.000) (PROSES 30 MENIT)", pricePerFollower: 29000, max: 0, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-        { id: "0189", name: "💍 (Rp 28.000) (PROSES 30 MENIT)", pricePerFollower: 29000, max: 0, desc:  "Masukkan username/channel telegram untuk dikirim gift" },    
-		{ id: "0310", name: "🏆 (Rp 28.000) (PROSES 30 MENIT)", pricePerFollower: 29000, max: 0, desc:  "Masukkan username/channel telegram untuk dikirim gift" }
-		  ],  
     
 	"STARS🌟": [    
-		{ id: "0011", name: "STARS🌟 (HARGA NORMAL)", pricePerFollower: 290, min: 100, desc:  "Masukkan username telegram untuk dikirim STARS. HARGA PER STARS!!" }
+		{ id: "0011", name: "STARS🌟 (HARGA NORMAL)", pricePerFollower: 290, min: 50, desc:  "Masukkan username telegram untuk dikirim STARS. HARGA PER STARS!!" }
 		],  
 	 "JASA REACT STARS": [    
 		{ id: "0003", name: "🌟 React Stars", pricePerFollower: 290, min: 1, max: 0, desc:  "Masukkan username/channel telegram untuk react stars" },    
