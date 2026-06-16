@@ -2,8 +2,8 @@
   {
   "redirects": [
     {
-      "source": "/home/",
-      "destination": "/home/",
+      "source": "/pp/",
+      "destination": "/p/",
       "permanent": true 
     },
     {
